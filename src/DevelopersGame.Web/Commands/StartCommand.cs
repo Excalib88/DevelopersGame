@@ -20,7 +20,7 @@ namespace DevelopersGame.Web.Commands
         public override async Task Execute(Message message, TelegramBotClient botClient)
         {
             var chatId = message.Chat.Id;
-            await botClient.SendTextMessageAsync(chatId, "Hallo I'm ASP.NET Core Bot", parseMode: ParseMode.Markdown);
+            await botClient.SendTextMessageAsync(chatId, "Bot started", parseMode: ParseMode.Markdown);
         }
     }
 }

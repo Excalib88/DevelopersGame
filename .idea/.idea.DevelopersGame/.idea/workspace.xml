@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff6d910d-7e70-4fb6-9bb5-ffb9fd585ba8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/AppSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/AppSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Models/Bot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/Models/Bot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/StartCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/StartCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Debug/netcoreapp3.1/DevelopersGame.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Debug/netcoreapp3.1/DevelopersGame.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Debug/netcoreapp3.1/DevelopersGame.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Debug/netcoreapp3.1/DevelopersGame.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Release/netcoreapp3.1/DevelopersGame.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Release/netcoreapp3.1/DevelopersGame.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Release/netcoreapp3.1/DevelopersGame.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Release/netcoreapp3.1/DevelopersGame.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Release/netcoreapp3.1/publish/DevelopersGame.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Release/netcoreapp3.1/publish/DevelopersGame.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Release/netcoreapp3.1/publish/DevelopersGame.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Release/netcoreapp3.1/publish/DevelopersGame.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Release/netcoreapp3.1/publish/publish.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/bin/Release/netcoreapp3.1/publish/publish.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/obj/Debug/netcoreapp3.1/DevelopersGame.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/obj/Debug/netcoreapp3.1/DevelopersGame.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/obj/Debug/netcoreapp3.1/DevelopersGame.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/obj/Debug/netcoreapp3.1/DevelopersGame.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/obj/Release/netcoreapp3.1/DevelopersGame.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/obj/Release/netcoreapp3.1/DevelopersGame.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/obj/Release/netcoreapp3.1/DevelopersGame.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/obj/Release/netcoreapp3.1/DevelopersGame.Web.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +43,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/TelegramCommand.cs" />
-        <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/StartCommand.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Bot.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/TelegramCommand.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" />
-        <option value="$PROJECT_DIR$/src/DevelopersGame.Web/AppSettings.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Models/Bot.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/StartCommand.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Web/AppSettings.cs" />
       </list>
     </option>
   </component>
@@ -155,7 +159,7 @@
       <workItem from="1582644095795" duration="433000" />
       <workItem from="1582648438629" duration="18000" />
       <workItem from="1582648641455" duration="4999000" />
-      <workItem from="1582653973294" duration="339000" />
+      <workItem from="1582653973294" duration="1493000" />
     </task>
     <servers />
   </component>
