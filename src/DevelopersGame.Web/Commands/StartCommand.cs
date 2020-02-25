@@ -2,6 +2,7 @@ using System.Threading.Tasks;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
+using Telegram.Bot.Types.ReplyMarkups;
 
 namespace DevelopersGame.Web.Commands
 {
@@ -20,7 +21,20 @@ namespace DevelopersGame.Web.Commands
         public override async Task Execute(Message message, TelegramBotClient botClient)
         {
             var chatId = message.Chat.Id;
-            await botClient.SendTextMessageAsync(chatId, "Bot started", parseMode: ParseMode.Markdown);
+            var keyBoard = new InlineKeyboardMarkup(new[]
+            {
+                new InlineKeyboardButton
+                {
+                    Text = "Главная"
+                },
+                new InlineKeyboardButton
+                {
+                    Text = "Звание"
+                },
+            });
+            await botClient.SendTextMessageAsync(chatId, "Привет! Тебе присвоено звание Intern! Чтоб достичь больших " +
+                                                         "успехов, тебе необходимо накопить определенное количество монет(К-от слова контрибуций)! Дерзай!",
+                parseMode: ParseMode.Markdown, replyMarkup:keyBoard);
         }
     }
 }
