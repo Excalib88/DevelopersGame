@@ -34,10 +34,7 @@ namespace DevelopersGame.Web
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServiceProvider serviceProvider)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            app.UseDeveloperExceptionPage();
 
             serviceProvider.GetRequiredService<TelegramBotClient>();
             app.UseHttpsRedirection();
