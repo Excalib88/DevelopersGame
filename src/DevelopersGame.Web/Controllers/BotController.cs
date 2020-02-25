@@ -17,9 +17,15 @@ namespace DevelopersGame.Web.Controllers
             _commandService = commandService;
             _telegramBotClient = telegramBotClient;
         }
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok("Started");
+        }
         
         [HttpPost]
-        public async Task<OkResult> Post([FromBody]Update update)
+        public async Task<IActionResult> Post([FromBody]Update update)
         {
             if (update == null) return Ok();
 
