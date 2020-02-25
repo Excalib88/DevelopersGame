@@ -5,10 +5,10 @@
       <e p="DevelopersGame.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="src\DevelopersGame.Web" t="IncludeRecursive">
-        <e p="AppSettings.cs" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Commands" t="Include">
+          <e p="MainCommand.cs" t="Include" />
           <e p="StartCommand.cs" t="Include" />
           <e p="TelegramCommand.cs" t="Include" />
         </e>
@@ -16,9 +16,7 @@
           <e p="BotController.cs" t="Include" />
         </e>
         <e p="DevelopersGame.Web.csproj" t="IncludeRecursive" />
-        <e p="Models" t="Include">
-          <e p="Bot.cs" t="Include" />
-        </e>
+        <e p="Models" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -29,6 +27,11 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="ServiceCollectionExtensions.cs" t="Include" />
+        <e p="Services" t="Include">
+          <e p="CommandService.cs" t="Include" />
+          <e p="ICommandService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
       </e>

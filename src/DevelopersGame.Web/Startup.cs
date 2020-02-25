@@ -1,4 +1,3 @@
-using DevelopersGame.Web.Models;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -6,7 +5,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json.Serialization;
-using Telegram.Bot;
 
 namespace DevelopersGame.Web
 {
@@ -22,7 +20,7 @@ namespace DevelopersGame.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services
-                .AddSingleton(new TelegramBotClient(_configuration["Token"]))
+                .AddTelegramBotClient(_configuration)
                 .AddControllers()
                 .AddNewtonsoftJson(options => 
                 {
@@ -39,7 +37,6 @@ namespace DevelopersGame.Web
                 app.UseDeveloperExceptionPage();
             }
 
-            Bot.GetBotClientAsync().Wait();
             app.UseHttpsRedirection();
             app.UseRouting();
 

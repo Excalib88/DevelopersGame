@@ -21,6 +21,8 @@ namespace DevelopersGame.Web.Commands
         public override async Task Execute(Message message, TelegramBotClient botClient)
         {
             var chatId = message.Chat.Id;
+
+            await botClient.SendTextMessageAsync(chatId, "asdasd");
             var keyBoard = new InlineKeyboardMarkup(new[]
             {
                 new InlineKeyboardButton

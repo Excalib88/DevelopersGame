@@ -1,11 +1,8 @@
-using System;
 using System.Threading.Tasks;
-using DevelopersGame.Web.Models;
+using DevelopersGame.Web.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 using Telegram.Bot;
 using Telegram.Bot.Types;
-using Telegram.Bot.Types.Enums;
 
 namespace DevelopersGame.Web.Controllers
 {
@@ -13,30 +10,30 @@ namespace DevelopersGame.Web.Controllers
     [Route("api/message/update")]
     public class BotController : Controller
     {
+        private readonly TelegramBotClient _telegramBotClient;
+        private readonly CommandService _commandService;
+        public BotController(CommandService commandService, TelegramBotClient telegramBotClient)
+        {
+            _commandService = commandService;
+            _telegramBotClient = telegramBotClient;
+        }
+        
         [HttpPost]
         public async Task<OkResult> Post([FromBody]Update update)
         {
             if (update == null) return Ok();
 
-            var commands = Bot.Commands;
             var message = update.Message;
-            var botClient = await Bot.GetBotClientAsync();
 
-            foreach (var command in commands)
+            foreach (var command in _commandService.Get())
             {
                 if (command.Contains(message))
                 {
-                    await command.Execute(message, botClient);
+                    await command.Execute(message, _telegramBotClient);
                     break;
                 }
             }
             return Ok();
-        }
-
-        [HttpGet("get")]
-        public IActionResult Get()
-        {
-            return Ok("Bot is running...");
         }
     }
 }
