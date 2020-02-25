@@ -24,7 +24,7 @@ namespace DevelopersGame.Web.Models
             //TODO: Add more commands
 
             botClient = new TelegramBotClient(AppSettings.Key);
-            string hook = string.Format(AppSettings.Url, "api/message/update");
+            string hook = $"{AppSettings.Url}api/message/update";
             await botClient.SetWebhookAsync(hook);
             return botClient;
         }

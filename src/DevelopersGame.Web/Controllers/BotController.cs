@@ -16,7 +16,6 @@ namespace DevelopersGame.Web.Controllers
         [HttpPost]
         public async Task<OkResult> Post([FromBody]Update update)
         {
-            Console.WriteLine("damir");
             if (update == null) return Ok();
 
             var commands = Bot.Commands;
