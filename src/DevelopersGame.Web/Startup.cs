@@ -1,4 +1,5 @@
 using System;
+using DevelopersGame.Web.Services;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -22,6 +23,7 @@ namespace DevelopersGame.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services
+                .AddScoped<ICommandService, CommandService>()
                 .AddTelegramBotClient(_configuration)
                 .AddControllers()
                 .AddNewtonsoftJson(options => 
