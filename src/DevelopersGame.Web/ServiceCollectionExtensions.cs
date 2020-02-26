@@ -16,7 +16,7 @@ namespace DevelopersGame.Web
             client.SetWebhookAsync(webHook).Wait();
             Debug.WriteLine(configuration["Token"]);
             return serviceCollection
-                .AddSingleton(client);
+                .AddTransient<ITelegramBotClient>(x=>client);
         }
     }
 }

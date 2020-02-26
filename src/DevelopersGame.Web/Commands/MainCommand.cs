@@ -9,7 +9,7 @@ namespace DevelopersGame.Web.Commands
     public class MainCommand: TelegramCommand
     {
         public override string Name { get; } = "Главная";
-        public override async Task Execute(Message message, TelegramBotClient client)
+        public override async Task Execute(Message message, ITelegramBotClient client)
         {
             var chatId = message.Chat.Id;
             var keyBoard = new InlineKeyboardMarkup(new[]

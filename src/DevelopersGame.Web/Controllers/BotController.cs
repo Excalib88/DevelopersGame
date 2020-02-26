@@ -10,9 +10,9 @@ namespace DevelopersGame.Web.Controllers
     [Route("api/message/update")]
     public class BotController : Controller
     {
-        private readonly TelegramBotClient _telegramBotClient;
+        private readonly ITelegramBotClient _telegramBotClient;
         private readonly CommandService _commandService;
-        public BotController(CommandService commandService, TelegramBotClient telegramBotClient)
+        public BotController(CommandService commandService, ITelegramBotClient telegramBotClient)
         {
             _commandService = commandService;
             _telegramBotClient = telegramBotClient;

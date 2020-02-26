@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\projects\DevelopersGame" t="IncludeFlat">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_DevelopersGame.980060018.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="DevelopersGame.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="src\DevelopersGame.Web" t="IncludeRecursive">
+      <e p="src/DevelopersGame.Web" t="IncludeRecursive">
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Commands" t="Include">
@@ -35,9 +38,5 @@
         <e p="Startup.cs" t="Include" />
       </e>
     </e>
-    <e p="C:\Users\rave9\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\rave9\.Rider2019.3\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\rave9\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\rave9\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_DevelopersGame.-1570204941.00" t="ExcludeRecursive" />
   </component>
 </project>

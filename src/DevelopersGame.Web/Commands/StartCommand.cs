@@ -18,7 +18,7 @@ namespace DevelopersGame.Web.Commands
             return message.Text.Contains(Name);
         }
 
-        public override async Task Execute(Message message, TelegramBotClient botClient)
+        public override async Task Execute(Message message, ITelegramBotClient botClient)
         {
             var chatId = message.Chat.Id;
 
