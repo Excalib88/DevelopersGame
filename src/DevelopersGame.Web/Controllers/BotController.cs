@@ -11,8 +11,8 @@ namespace DevelopersGame.Web.Controllers
     public class BotController : Controller
     {
         private readonly ITelegramBotClient _telegramBotClient;
-        private readonly CommandService _commandService;
-        public BotController(CommandService commandService, ITelegramBotClient telegramBotClient)
+        private readonly ICommandService _commandService;
+        public BotController(ICommandService commandService, ITelegramBotClient telegramBotClient)
         {
             _commandService = commandService;
             _telegramBotClient = telegramBotClient;

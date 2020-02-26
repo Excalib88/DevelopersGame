@@ -1,5 +1,3 @@
-using System.Diagnostics;
-using DevelopersGame.Web.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Telegram.Bot;
@@ -14,9 +12,9 @@ namespace DevelopersGame.Web
             var client = new TelegramBotClient(configuration["Token"]);
             var webHook = $"{configuration["Url"]}api/message/update";
             client.SetWebhookAsync(webHook).Wait();
-            Debug.WriteLine(configuration["Token"]);
+            
             return serviceCollection
-                .AddTransient<ITelegramBotClient>(x=>client);
+                .AddTransient<ITelegramBotClient>(x => client);
         }
     }
 }

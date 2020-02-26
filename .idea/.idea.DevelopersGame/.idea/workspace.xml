@@ -24,12 +24,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff6d910d-7e70-4fb6-9bb5-ffb9fd585ba8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/MainCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/MainCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/StartCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/StartCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/TelegramCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/TelegramCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" afterDir="false" />
     </list>
@@ -41,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="240">
+              <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
               <folding>
                 <marker date="1582738306941" expanded="false" signature="6:338" ph="..." />
                 <marker date="1582738306941" expanded="true" signature="368:1615" ph="{...}" />
@@ -63,13 +57,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
-                <marker date="1582740976547" expanded="false" signature="6:170" ph="..." />
-                <marker date="1582740976547" expanded="true" signature="200:783" ph="{...}" />
-                <marker date="1582740976547" expanded="true" signature="254:781" ph="{...}" />
-                <marker date="1582740976547" expanded="true" signature="408:775" ph="{...}" />
+                <marker date="1582743496227" expanded="true" signature="6:109" ph="..." />
+                <marker date="1582743496227" expanded="true" signature="139:684" ph="{...}" />
+                <marker date="1582743496227" expanded="true" signature="193:682" ph="{...}" />
+                <marker date="1582743496227" expanded="true" signature="347:676" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -78,23 +72,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+            <state relative-caret-position="225">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <marker date="1582741030910" expanded="false" signature="6:142" ph="..." />
-                <marker date="1582741030910" expanded="true" signature="184:1245" ph="{...}" />
-                <marker date="1582741030910" expanded="true" signature="284:1243" ph="{...}" />
-                <marker date="1582741030910" expanded="true" signature="509:627" ph="{...}" />
-                <marker date="1582741030910" expanded="true" signature="681:735" ph="{...}" />
-                <marker date="1582741030910" expanded="true" signature="834:1237" ph="{...}" />
-                <marker date="1582741030910" expanded="true" signature="992:1202" ph="{...}" />
-                <marker date="1582741030910" expanded="true" signature="1053:1188" ph="{...}" />
+                <marker date="1582743650260" expanded="false" signature="6:142" ph="..." />
+                <marker date="1582743650260" expanded="true" signature="184:1247" ph="{...}" />
+                <marker date="1582743650260" expanded="true" signature="284:1245" ph="{...}" />
+                <marker date="1582743650260" expanded="true" signature="511:629" ph="{...}" />
+                <marker date="1582743650260" expanded="true" signature="683:737" ph="{...}" />
+                <marker date="1582743650260" expanded="true" signature="836:1239" ph="{...}" />
+                <marker date="1582743650260" expanded="true" signature="994:1204" ph="{...}" />
+                <marker date="1582743650260" expanded="true" signature="1055:1190" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Services/ICommandService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <marker date="1582738306941" expanded="false" signature="6:68" ph="..." />
+                <marker date="1582738306941" expanded="true" signature="107:197" ph="{...}" />
+                <marker date="1582738306941" expanded="true" signature="146:195" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Commands/TelegramCommand.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -147,6 +155,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <marker date="1582738306940" expanded="false" signature="6:246" ph="..." />
+                <marker date="1582738306940" expanded="true" signature="276:647" ph="{...}" />
+                <marker date="1582738306940" expanded="true" signature="303:645" ph="{...}" />
+                <marker date="1582738306940" expanded="true" signature="356:427" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98486897-8CB2-4D9D-B088-0C494931882B/7e/14b5f7e1/TelegramBotClient.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -187,11 +219,11 @@
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/ITelegramClient.cs" />
-        <option value="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" />
-        <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/StartCommand.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/MainCommand.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/TelegramCommand.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" />
       </list>
     </option>
   </component>
@@ -354,12 +386,12 @@
       <workItem from="1582648641455" duration="4999000" />
       <workItem from="1582653973294" duration="6352000" />
       <workItem from="1582738334157" duration="399000" />
-      <workItem from="1582740766444" duration="264000" />
+      <workItem from="1582740766444" duration="745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="663000" />
+    <option name="totallyTimeSpent" value="1144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,7 +411,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Build" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -394,7 +426,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="REST Client" order="12" />
       <window_info anchor="bottom" id="TeamCity" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -555,23 +587,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <marker date="1582738306941" expanded="false" signature="6:338" ph="..." />
-            <marker date="1582738306941" expanded="true" signature="368:1615" ph="{...}" />
-            <marker date="1582738306941" expanded="true" signature="395:1613" ph="{...}" />
-            <marker date="1582738306941" expanded="true" signature="511:575" ph="{...}" />
-            <marker date="1582738306941" expanded="true" signature="651:1160" ph="{...}" />
-            <marker date="1582738306941" expanded="true" signature="879:1109" ph="{...}" />
-            <marker date="1582738306941" expanded="true" signature="1275:1607" ph="{...}" />
-            <marker date="1582738306941" expanded="true" signature="1512:1595" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/ITelegramClient.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -583,36 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="29" column="53" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <marker date="1582740976547" expanded="false" signature="6:170" ph="..." />
-            <marker date="1582740976547" expanded="true" signature="200:783" ph="{...}" />
-            <marker date="1582740976547" expanded="true" signature="254:781" ph="{...}" />
-            <marker date="1582740976547" expanded="true" signature="408:775" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-          <folding>
-            <marker date="1582741030910" expanded="false" signature="6:142" ph="..." />
-            <marker date="1582741030910" expanded="true" signature="184:1245" ph="{...}" />
-            <marker date="1582741030910" expanded="true" signature="284:1243" ph="{...}" />
-            <marker date="1582741030910" expanded="true" signature="509:627" ph="{...}" />
-            <marker date="1582741030910" expanded="true" signature="681:735" ph="{...}" />
-            <marker date="1582741030910" expanded="true" signature="834:1237" ph="{...}" />
-            <marker date="1582741030910" expanded="true" signature="992:1202" ph="{...}" />
-            <marker date="1582741030910" expanded="true" signature="1053:1188" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,6 +614,18 @@
             <marker date="1582741030920" expanded="true" signature="779:1023" ph="{...}" />
             <marker date="1582741030920" expanded="true" signature="838:894" ph="{...}" />
             <marker date="1582741030920" expanded="true" signature="953:1008" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Commands/TelegramCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <marker date="1582741030381" expanded="false" signature="6:75" ph="..." />
+            <marker date="1582741030381" expanded="true" signature="114:345" ph="{...}" />
+            <marker date="1582741030381" expanded="true" signature="158:343" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -650,14 +647,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Commands/TelegramCommand.cs">
+    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <marker date="1582741030381" expanded="false" signature="6:75" ph="..." />
-            <marker date="1582741030381" expanded="true" signature="114:345" ph="{...}" />
-            <marker date="1582741030381" expanded="true" signature="158:343" ph="{...}" />
+            <marker date="1582738306940" expanded="false" signature="6:246" ph="..." />
+            <marker date="1582738306940" expanded="true" signature="276:647" ph="{...}" />
+            <marker date="1582738306940" expanded="true" signature="303:645" ph="{...}" />
+            <marker date="1582738306940" expanded="true" signature="356:427" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1582743650260" expanded="false" signature="6:142" ph="..." />
+            <marker date="1582743650260" expanded="true" signature="184:1247" ph="{...}" />
+            <marker date="1582743650260" expanded="true" signature="284:1245" ph="{...}" />
+            <marker date="1582743650260" expanded="true" signature="511:629" ph="{...}" />
+            <marker date="1582743650260" expanded="true" signature="683:737" ph="{...}" />
+            <marker date="1582743650260" expanded="true" signature="836:1239" ph="{...}" />
+            <marker date="1582743650260" expanded="true" signature="994:1204" ph="{...}" />
+            <marker date="1582743650260" expanded="true" signature="1055:1190" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Services/ICommandService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1582738306941" expanded="false" signature="6:68" ph="..." />
+            <marker date="1582738306941" expanded="true" signature="107:197" ph="{...}" />
+            <marker date="1582738306941" expanded="true" signature="146:195" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <marker date="1582743496227" expanded="true" signature="6:109" ph="..." />
+            <marker date="1582743496227" expanded="true" signature="139:684" ph="{...}" />
+            <marker date="1582743496227" expanded="true" signature="193:682" ph="{...}" />
+            <marker date="1582743496227" expanded="true" signature="347:676" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding>
+            <marker date="1582738306941" expanded="false" signature="6:338" ph="..." />
+            <marker date="1582738306941" expanded="true" signature="368:1615" ph="{...}" />
+            <marker date="1582738306941" expanded="true" signature="395:1613" ph="{...}" />
+            <marker date="1582738306941" expanded="true" signature="511:575" ph="{...}" />
+            <marker date="1582738306941" expanded="true" signature="651:1160" ph="{...}" />
+            <marker date="1582738306941" expanded="true" signature="879:1109" ph="{...}" />
+            <marker date="1582738306941" expanded="true" signature="1275:1607" ph="{...}" />
+            <marker date="1582738306941" expanded="true" signature="1512:1595" ph="{...}" />
           </folding>
         </state>
       </provider>
