@@ -22,18 +22,19 @@ namespace DevelopersGame.Web.Commands
         {
             var chatId = message.Chat.Id;
 
-            await botClient.SendTextMessageAsync(chatId, "asdasd");
-            var keyBoard = new InlineKeyboardMarkup(new[]
+            var keyBoard = new ReplyKeyboardMarkup
             {
-                new InlineKeyboardButton
+                Keyboard = new[]
                 {
-                    Text = "Главная"
-                },
-                new InlineKeyboardButton
-                {
-                    Text = "Звание"
-                },
-            });
+                    new[]
+                    {
+                        new KeyboardButton("Главная"),
+                        new KeyboardButton("Статус"),
+                        new KeyboardButton("Привыязать GitHub")
+                    }
+
+                }
+            };
             await botClient.SendTextMessageAsync(chatId, "Привет! Тебе присвоено звание Intern! Чтоб достичь больших " +
                                                          "успехов, тебе необходимо накопить определенное количество монет(К-от слова контрибуций)! Дерзай!",
                 parseMode: ParseMode.Markdown, replyMarkup:keyBoard);

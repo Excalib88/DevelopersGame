@@ -12,17 +12,19 @@ namespace DevelopersGame.Web.Commands
         public override async Task Execute(Message message, ITelegramBotClient client)
         {
             var chatId = message.Chat.Id;
-            var keyBoard = new InlineKeyboardMarkup(new[]
+            var keyBoard = new ReplyKeyboardMarkup
             {
-                new InlineKeyboardButton
+                Keyboard = new[]
                 {
-                    Text = "Главная"
-                },
-                new InlineKeyboardButton
-                {
-                    Text = "Звание"
-                },
-            });
+                    new[]
+                    {
+                        new KeyboardButton("Главная"),
+                        new KeyboardButton("Статус"),
+                        new KeyboardButton("Привыязать GitHub")
+                    }
+
+                }
+            };
             await client.SendTextMessageAsync(chatId, "Главная страница!",
                 parseMode: ParseMode.Markdown, replyMarkup:keyBoard);
         }
