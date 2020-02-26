@@ -38,7 +38,6 @@ namespace DevelopersGame.Web
         {
             app.UseDeveloperExceptionPage();
 
-            serviceProvider.GetRequiredService<TelegramBotClient>();
             app.UseHttpsRedirection();
             app.UseRouting();
 

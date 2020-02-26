@@ -14,7 +14,7 @@ namespace DevelopersGame.Web
             client.SetWebhookAsync(webHook).Wait();
             
             return serviceCollection
-                .AddTransient<ITelegramBotClient>(x => client);
+                .AddTransient<ITelegramBotClient, TelegramBotClient>(x => client);
         }
     }
 }
