@@ -9,7 +9,7 @@ namespace DevelopersGame.Domain.Commands
 {
     public class MainCommand: TelegramCommand
     {
-        public override string Name { get; } = "U+1F3E0 Главная";
+        public override string Name { get; } = "\U0001F3E0 Главная";
         public override async Task Execute(Message message, ITelegramBotClient client)
         {
             var chatId = message.Chat.Id;
@@ -19,19 +19,19 @@ namespace DevelopersGame.Domain.Commands
                 {
                     new[]
                     {
-                        new KeyboardButton("U+1F3E0 Главная")
+                        new KeyboardButton("\U0001F3E0 Главная")
                     },
                     new[]
                     {
-                        new KeyboardButton("U+1F451 Ранк")
+                        new KeyboardButton("\U0001F451 Ранк")
                     },
                     new []
                     {
-                        new KeyboardButton("U+1F45C Магазин")
+                        new KeyboardButton("\U0001F45C Магазин")
                     },
                     new []
                     {
-                        new KeyboardButton("U+1F4D6 Помощь") 
+                        new KeyboardButton("\U0001F4D6 Помощь") 
                     }
                 }
             };

@@ -12,8 +12,11 @@ namespace DevelopersGame.Domain.Services
         {
             _commands = new List<TelegramCommand>
             {
-                new StartCommand(),
-                new MainCommand()
+                new HelpCommand(),
+                new MainCommand(),
+                new RankCommand(),
+                new ShopCommand(),
+                new StartCommand()
             };
         }
 
