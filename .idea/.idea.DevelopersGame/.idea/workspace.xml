@@ -24,21 +24,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff6d910d-7e70-4fb6-9bb5-ffb9fd585ba8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.DataAccess/DataContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/IEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Enums/RankType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Repositories/DbRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Repositories/IDbRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/UserRoles.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevelopersGame.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DevelopersGame.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/DevelopersGame.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/DevelopersGame.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +43,8 @@
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BBB3B884-123D-47EA-9CD1-5BED540D02AE/16B/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/Role.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/UserRoles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
@@ -98,7 +89,6 @@
         <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/IEntity.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/BaseEntity.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Enums/RankType.cs" />
-        <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/User.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/DataContext.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Repositories/IDbRepository.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Repositories/DbRepository.cs" />
@@ -108,6 +98,9 @@
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/DevelopersGame.Web.csproj" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess.Migrations/DevelopersGame.DataAccess.Migrations.csproj" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/User.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/Role.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/UserRoles.cs" />
       </list>
     </option>
   </component>
@@ -244,7 +237,7 @@
       <workItem from="1582653973294" duration="6352000" />
       <workItem from="1582738334157" duration="399000" />
       <workItem from="1582740766444" duration="2099000" />
-      <workItem from="1582826360509" duration="5361000" />
+      <workItem from="1582826360509" duration="5674000" />
     </task>
     <servers />
   </component>
