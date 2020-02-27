@@ -7,9 +7,9 @@ using Telegram.Bot.Types.ReplyMarkups;
 
 namespace DevelopersGame.Domain.Commands
 {
-    public class MainCommand: TelegramCommand
+    public class RankCommand:TelegramCommand
     {
-        public override string Name { get; } = "U+1F3E0 Главная";
+        public override string Name { get; } = "U+1F451 Ранк";
         public override async Task Execute(Message message, ITelegramBotClient client)
         {
             var chatId = message.Chat.Id;
@@ -35,7 +35,7 @@ namespace DevelopersGame.Domain.Commands
                     }
                 }
             };
-            await client.SendTextMessageAsync(chatId, "Главная страница!",
+            await client.SendTextMessageAsync(chatId, "Ранк",
                 parseMode: ParseMode.Markdown, replyMarkup:keyBoard);
         }
 
@@ -44,7 +44,6 @@ namespace DevelopersGame.Domain.Commands
             if (message.Type != MessageType.Text)
                 return false;
 
-            return message.Text.Contains(Name);
-        }
+            return message.Text.Contains(Name);        }
     }
 }

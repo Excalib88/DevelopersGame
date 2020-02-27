@@ -7,9 +7,9 @@ using Telegram.Bot.Types.ReplyMarkups;
 
 namespace DevelopersGame.Domain.Commands
 {
-    public class MainCommand: TelegramCommand
+    public class ShopCommand: TelegramCommand
     {
-        public override string Name { get; } = "U+1F3E0 Главная";
+        public override string Name { get; } = "U+1F45C Магазин";
         public override async Task Execute(Message message, ITelegramBotClient client)
         {
             var chatId = message.Chat.Id;
@@ -35,16 +35,13 @@ namespace DevelopersGame.Domain.Commands
                     }
                 }
             };
-            await client.SendTextMessageAsync(chatId, "Главная страница!",
+            await client.SendTextMessageAsync(chatId, "Магазин",
                 parseMode: ParseMode.Markdown, replyMarkup:keyBoard);
         }
 
         public override bool Contains(Message message)
         {
-            if (message.Type != MessageType.Text)
-                return false;
-
-            return message.Text.Contains(Name);
+            throw new System.NotImplementedException();
         }
     }
 }

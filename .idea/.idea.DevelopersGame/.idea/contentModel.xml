@@ -37,6 +37,8 @@
         <e p="Migrations" t="Include">
           <e p="20200227201757_AddedUserTable.cs" t="Include" />
           <e p="20200227201757_AddedUserTable.Designer.cs" t="Include" />
+          <e p="20200227203404_AddedRoles.cs" t="Include" />
+          <e p="20200227203404_AddedRoles.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -54,7 +56,10 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Commands" t="Include">
+          <e p="HelpCommand.cs" t="Include" />
           <e p="MainCommand.cs" t="Include" />
+          <e p="RankCommand.cs" t="Include" />
+          <e p="ShopCommand.cs" t="Include" />
           <e p="StartCommand.cs" t="Include" />
         </e>
         <e p="DevelopersGame.Domain.csproj" t="IncludeRecursive" />
