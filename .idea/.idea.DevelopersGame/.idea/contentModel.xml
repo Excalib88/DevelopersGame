@@ -4,6 +4,47 @@
     <e p="C:\projects\DevelopersGame" t="IncludeFlat">
       <e p="DevelopersGame.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="src\DevelopersGame.DataAccess" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataContext.cs" t="Include" />
+        <e p="DevelopersGame.DataAccess.csproj" t="IncludeRecursive" />
+        <e p="Entities" t="Include">
+          <e p="BaseEntity.cs" t="Include" />
+          <e p="IEntity.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="Enums" t="Include">
+          <e p="RankType.cs" t="Include" />
+        </e>
+        <e p="migration.ps1" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="DevelopersGame.DataAccess.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="DbRepository.cs" t="Include" />
+          <e p="IDbRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="src\DevelopersGame.DataAccess.Migrations" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DevelopersGame.DataAccess.Migrations.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20200227201757_AddedUserTable.cs" t="Include" />
+          <e p="20200227201757_AddedUserTable.Designer.cs" t="Include" />
+          <e p="DataContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="DevelopersGame.DataAccess.Migrations.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="src\DevelopersGame.Domain" t="IncludeRecursive">
         <e p="Abstractions" t="Include">
           <e p="ICommandService.cs" t="Include" />

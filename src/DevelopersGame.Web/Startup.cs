@@ -1,9 +1,12 @@
 using System;
+using DevelopersGame.DataAccess;
+using DevelopersGame.DataAccess.Repositories;
 using DevelopersGame.Domain.Abstractions;
 using DevelopersGame.Domain.Services;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json.Serialization;
@@ -21,8 +24,17 @@ namespace DevelopersGame.Web
         
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<DataContext>(options =>
+            {
+                options
+                    .UseNpgsql(_configuration.GetConnectionString("DefaultConnection"),
+                        assembly =>
+                            assembly.MigrationsAssembly("DevelopersGame.DataAccess.Migrations"));
+            });
+            
             services
                 .AddScoped<ICommandService, CommandService>()
+                .AddScoped<IDbRepository, DbRepository>()
                 .AddTelegramBotClient(_configuration)
                 .AddControllers()
                 .AddNewtonsoftJson(options => 

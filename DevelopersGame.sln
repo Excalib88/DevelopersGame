@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopersGame.Web", "src\D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopersGame.Domain", "src\DevelopersGame.Domain\DevelopersGame.Domain.csproj", "{D1749FE7-BC68-462C-B9F6-948C4A0254AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopersGame.DataAccess", "src\DevelopersGame.DataAccess\DevelopersGame.DataAccess.csproj", "{CDA6A992-146D-4AA7-82B0-D08B8006C44D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopersGame.DataAccess.Migrations", "src\DevelopersGame.DataAccess.Migrations\DevelopersGame.DataAccess.Migrations.csproj", "{4E232870-5031-4333-8B41-4766E050AADE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{D1749FE7-BC68-462C-B9F6-948C4A0254AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1749FE7-BC68-462C-B9F6-948C4A0254AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1749FE7-BC68-462C-B9F6-948C4A0254AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA6A992-146D-4AA7-82B0-D08B8006C44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA6A992-146D-4AA7-82B0-D08B8006C44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA6A992-146D-4AA7-82B0-D08B8006C44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA6A992-146D-4AA7-82B0-D08B8006C44D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E232870-5031-4333-8B41-4766E050AADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E232870-5031-4333-8B41-4766E050AADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E232870-5031-4333-8B41-4766E050AADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E232870-5031-4333-8B41-4766E050AADE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

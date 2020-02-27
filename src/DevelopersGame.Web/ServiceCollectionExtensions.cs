@@ -11,7 +11,7 @@ namespace DevelopersGame.Web
         {
             var client = new TelegramBotClient(configuration["Token"]);
             var webHook = $"{configuration["Url"]}api/message/update";
-            client.SetWebhookAsync(webHook).Wait();
+            //client.SetWebhookAsync(webHook).Wait();
             
             return serviceCollection
                 .AddSingleton<ITelegramBotClient>(client);
