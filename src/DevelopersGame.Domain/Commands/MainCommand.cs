@@ -36,7 +36,7 @@ namespace DevelopersGame.Domain.Commands
                 }
             };
             await client.SendTextMessageAsync(chatId, "Главная страница!",
-                parseMode: ParseMode.Markdown, replyMarkup:keyBoard);
+                parseMode: ParseMode.Html, replyMarkup:keyBoard);
         }
 
         public override bool Contains(Message message)

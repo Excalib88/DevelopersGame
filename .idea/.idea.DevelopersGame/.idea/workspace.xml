@@ -24,13 +24,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff6d910d-7e70-4fb6-9bb5-ffb9fd585ba8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/HelpCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/RankCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/ShopCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/MainCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/MainCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/RankCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/RankCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/ShopCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/ShopCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,6 @@
         <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Class1.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/TelegramCommand.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/ICommandService.cs" />
-        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Services/CommandService.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Class1.cs" />
@@ -106,10 +103,11 @@
         <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/Role.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.DataAccess/Entities/UserRoles.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/HelpCommand.cs" />
-        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/ShopCommand.cs" />
-        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/RankCommand.cs" />
-        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/MainCommand.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/MainCommand.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/RankCommand.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/ShopCommand.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" />
       </list>
     </option>
   </component>
@@ -246,7 +244,7 @@
       <workItem from="1582653973294" duration="6352000" />
       <workItem from="1582738334157" duration="399000" />
       <workItem from="1582740766444" duration="2099000" />
-      <workItem from="1582826360509" duration="6967000" />
+      <workItem from="1582826360509" duration="7406000" />
     </task>
     <servers />
   </component>

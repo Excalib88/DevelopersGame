@@ -29,16 +29,25 @@ namespace DevelopersGame.Domain.Commands
                 {
                     new[]
                     {
-                        new KeyboardButton("Главная"),
-                        new KeyboardButton("Статус"),
-                        new KeyboardButton("Привыязать GitHub")
+                        new KeyboardButton("U+1F3E0 Главная")
+                    },
+                    new[]
+                    {
+                        new KeyboardButton("U+1F451 Ранк")
+                    },
+                    new []
+                    {
+                        new KeyboardButton("U+1F45C Магазин")
+                    },
+                    new []
+                    {
+                        new KeyboardButton("U+1F4D6 Помощь") 
                     }
-
                 }
             };
             await botClient.SendTextMessageAsync(chatId, "Привет! Тебе присвоено звание Intern! Чтоб достичь больших " +
                                                          "успехов, тебе необходимо накопить определенное количество монет(К-от слова контрибуций)! Дерзай!",
-                parseMode: ParseMode.Markdown, replyMarkup:keyBoard);
+                parseMode: ParseMode.Html, replyMarkup:keyBoard);
         }
     }
 }
