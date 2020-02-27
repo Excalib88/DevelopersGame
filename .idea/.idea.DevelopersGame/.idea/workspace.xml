@@ -24,179 +24,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff6d910d-7e70-4fb6-9bb5-ffb9fd585ba8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevelopersGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevelopersGame.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DevelopersGame.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/MainCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/MainCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/StartCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/TelegramCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/TelegramCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/DevelopersGame.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/DevelopersGame.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Services/CommandService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Services/CommandService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Services/ICommandService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/ICommandService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <marker date="1582743968506" expanded="false" signature="6:338" ph="..." />
-                <marker date="1582743968506" expanded="true" signature="368:1546" ph="{...}" />
-                <marker date="1582743968506" expanded="true" signature="395:1544" ph="{...}" />
-                <marker date="1582743968506" expanded="true" signature="511:575" ph="{...}" />
-                <marker date="1582743968506" expanded="true" signature="651:1160" ph="{...}" />
-                <marker date="1582743968506" expanded="true" signature="879:1109" ph="{...}" />
-                <marker date="1582743968506" expanded="true" signature="1275:1538" ph="{...}" />
-                <marker date="1582743968506" expanded="true" signature="1443:1526" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <marker date="1582746508451" expanded="true" signature="6:109" ph="..." />
-                <marker date="1582746508451" expanded="true" signature="139:679" ph="{...}" />
-                <marker date="1582746508451" expanded="true" signature="193:677" ph="{...}" />
-                <marker date="1582746508451" expanded="true" signature="347:671" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <marker date="1582743650260" expanded="false" signature="6:142" ph="..." />
-                <marker date="1582743650260" expanded="true" signature="184:1247" ph="{...}" />
-                <marker date="1582743650260" expanded="true" signature="284:1245" ph="{...}" />
-                <marker date="1582743650260" expanded="true" signature="511:629" ph="{...}" />
-                <marker date="1582743650260" expanded="true" signature="683:737" ph="{...}" />
-                <marker date="1582743650260" expanded="true" signature="836:1239" ph="{...}" />
-                <marker date="1582743650260" expanded="true" signature="994:1204" ph="{...}" />
-                <marker date="1582743650260" expanded="true" signature="1055:1190" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Services/ICommandService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding>
-                <marker date="1582738306941" expanded="false" signature="6:68" ph="..." />
-                <marker date="1582738306941" expanded="true" signature="107:197" ph="{...}" />
-                <marker date="1582738306941" expanded="true" signature="146:195" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Commands/TelegramCommand.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-              <folding>
-                <marker date="1582741030381" expanded="false" signature="6:75" ph="..." />
-                <marker date="1582741030381" expanded="true" signature="114:345" ph="{...}" />
-                <marker date="1582741030381" expanded="true" signature="158:343" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Commands/StartCommand.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
-              <folding>
-                <marker date="1582745124442" expanded="false" signature="6:146" ph="..." />
-                <marker date="1582745124442" expanded="true" signature="185:1399" ph="{...}" />
-                <marker date="1582745124442" expanded="true" signature="235:1397" ph="{...}" />
-                <marker date="1582745124442" expanded="true" signature="347:496" ph="{...}" />
-                <marker date="1582745124442" expanded="true" signature="587:1391" ph="{...}" />
-                <marker date="1582745124442" expanded="true" signature="704:1032" ph="{...}" />
-                <marker date="1582745124442" expanded="true" signature="755:1018" ph="{...}" />
-                <marker date="1582745124442" expanded="true" signature="803:999" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Commands/MainCommand.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="26" selection-end-column="14" />
-              <folding>
-                <marker date="1582744939371" expanded="false" signature="6:146" ph="..." />
-                <marker date="1582744939371" expanded="true" signature="185:1197" ph="{...}" />
-                <marker date="1582744939371" expanded="true" signature="233:1195" ph="{...}" />
-                <marker date="1582744939371" expanded="true" signature="384:984" ph="{...}" />
-                <marker date="1582744939371" expanded="true" signature="500:828" ph="{...}" />
-                <marker date="1582744939371" expanded="true" signature="551:814" ph="{...}" />
-                <marker date="1582744939371" expanded="true" signature="599:795" ph="{...}" />
-                <marker date="1582744939371" expanded="true" signature="1040:1189" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding>
-                <marker date="1582738306940" expanded="false" signature="6:246" ph="..." />
-                <marker date="1582738306940" expanded="true" signature="276:647" ph="{...}" />
-                <marker date="1582738306940" expanded="true" signature="303:645" ph="{...}" />
-                <marker date="1582738306940" expanded="true" signature="356:427" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/ICommandService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/TelegramCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/231CAC4C-D307-4AEA-83F1-76589F64BFB3/8e/9c843914/Task.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Services/CommandService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Services/ICommandService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Commands/MainCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Commands/StartCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Commands/TelegramCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/MainCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Domain/Services/CommandService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98486897-8CB2-4D9D-B088-0C494931882B/7e/14b5f7e1/TelegramBotClient.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/231CAC4C-D307-4AEA-83F1-76589F64BFB3/9a/ba973dec/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -211,11 +70,17 @@
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/ITelegramClient.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/TelegramCommand.cs" />
-        <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" />
-        <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/MainCommand.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Commands/StartCommand.cs" />
         <option value="$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Class1.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/TelegramCommand.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Abstractions/ICommandService.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/MainCommand.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Commands/StartCommand.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Domain/Services/CommandService.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs" />
+        <option value="$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs" />
       </list>
     </option>
   </component>
@@ -227,44 +92,6 @@
   <component name="ProjectId" id="1YIxpmA4KJHiUnVF8DkTAX6StDR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DevelopersGame" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DevelopersGame" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DevelopersGame.Web" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DevelopersGame" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DevelopersGame.Web" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Commands" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DevelopersGame" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DevelopersGame.Web" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -288,18 +115,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.DevelopersGame.Web">
     <configuration name="DevelopersGame.Web" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/DevelopersGame.Web/DevelopersGame.Web.csproj" />
@@ -308,6 +123,10 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="0" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="0" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
@@ -319,6 +138,10 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="0" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="0" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
@@ -330,6 +153,10 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="0" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="0" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
@@ -373,54 +200,9 @@
       <workItem from="1582653973294" duration="6352000" />
       <workItem from="1582738334157" duration="399000" />
       <workItem from="1582740766444" duration="2099000" />
+      <workItem from="1582826360509" duration="932000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2498000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Stacktrace" weight="0.32959184" />
-      <window_info anchor="bottom" id="Build" weight="0.32959184" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="REST Client" order="12" />
-      <window_info anchor="bottom" id="TeamCity" order="13" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Errors In Solution" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -433,12 +215,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -545,10 +321,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="492" key="GridCell.Tab.4.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1582660611238" />
-    <state x="873" y="434" key="Rider.ProjectTemplateDialog.Size" timestamp="1582648745797">
+    <state x="873" y="434" key="Rider.ProjectTemplateDialog.Size" timestamp="1582830486312">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="434" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1582648745797" />
+    <state x="873" y="434" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1582830486312" />
     <state x="1066" y="392" key="RiderGenerateDialog" timestamp="1582658167101">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -571,160 +347,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/ITelegramClient.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98486897-8CB2-4D9D-B088-0C494931882B/7e/14b5f7e1/TelegramBotClient.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Commands/TelegramCommand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <marker date="1582741030381" expanded="false" signature="6:75" ph="..." />
-            <marker date="1582741030381" expanded="true" signature="114:345" ph="{...}" />
-            <marker date="1582741030381" expanded="true" signature="158:343" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <marker date="1582738306940" expanded="false" signature="6:246" ph="..." />
-            <marker date="1582738306940" expanded="true" signature="276:647" ph="{...}" />
-            <marker date="1582738306940" expanded="true" signature="303:645" ph="{...}" />
-            <marker date="1582738306940" expanded="true" signature="356:427" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Services/ICommandService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <marker date="1582738306941" expanded="false" signature="6:68" ph="..." />
-            <marker date="1582738306941" expanded="true" signature="107:197" ph="{...}" />
-            <marker date="1582738306941" expanded="true" signature="146:195" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/231CAC4C-D307-4AEA-83F1-76589F64BFB3/8e/9c843914/Task.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="1243" column="8" selection-start-line="1243" selection-start-column="8" selection-end-line="1243" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/231CAC4C-D307-4AEA-83F1-76589F64BFB3/9a/ba973dec/ExceptionDispatchInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <marker date="1582743968506" expanded="false" signature="6:338" ph="..." />
-            <marker date="1582743968506" expanded="true" signature="368:1546" ph="{...}" />
-            <marker date="1582743968506" expanded="true" signature="395:1544" ph="{...}" />
-            <marker date="1582743968506" expanded="true" signature="511:575" ph="{...}" />
-            <marker date="1582743968506" expanded="true" signature="651:1160" ph="{...}" />
-            <marker date="1582743968506" expanded="true" signature="879:1109" ph="{...}" />
-            <marker date="1582743968506" expanded="true" signature="1275:1538" ph="{...}" />
-            <marker date="1582743968506" expanded="true" signature="1443:1526" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Controllers/BotController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <marker date="1582743650260" expanded="false" signature="6:142" ph="..." />
-            <marker date="1582743650260" expanded="true" signature="184:1247" ph="{...}" />
-            <marker date="1582743650260" expanded="true" signature="284:1245" ph="{...}" />
-            <marker date="1582743650260" expanded="true" signature="511:629" ph="{...}" />
-            <marker date="1582743650260" expanded="true" signature="683:737" ph="{...}" />
-            <marker date="1582743650260" expanded="true" signature="836:1239" ph="{...}" />
-            <marker date="1582743650260" expanded="true" signature="994:1204" ph="{...}" />
-            <marker date="1582743650260" expanded="true" signature="1055:1190" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Commands/MainCommand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <marker date="1582744939371" expanded="false" signature="6:146" ph="..." />
-            <marker date="1582744939371" expanded="true" signature="185:1197" ph="{...}" />
-            <marker date="1582744939371" expanded="true" signature="233:1195" ph="{...}" />
-            <marker date="1582744939371" expanded="true" signature="384:984" ph="{...}" />
-            <marker date="1582744939371" expanded="true" signature="500:828" ph="{...}" />
-            <marker date="1582744939371" expanded="true" signature="551:814" ph="{...}" />
-            <marker date="1582744939371" expanded="true" signature="599:795" ph="{...}" />
-            <marker date="1582744939371" expanded="true" signature="1040:1189" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/Commands/StartCommand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
-          <folding>
-            <marker date="1582745124442" expanded="false" signature="6:146" ph="..." />
-            <marker date="1582745124442" expanded="true" signature="185:1399" ph="{...}" />
-            <marker date="1582745124442" expanded="true" signature="235:1397" ph="{...}" />
-            <marker date="1582745124442" expanded="true" signature="347:496" ph="{...}" />
-            <marker date="1582745124442" expanded="true" signature="587:1391" ph="{...}" />
-            <marker date="1582745124442" expanded="true" signature="704:1032" ph="{...}" />
-            <marker date="1582745124442" expanded="true" signature="755:1018" ph="{...}" />
-            <marker date="1582745124442" expanded="true" signature="803:999" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DevelopersGame.Web/ServiceCollectionExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <marker date="1582746508451" expanded="true" signature="6:109" ph="..." />
-            <marker date="1582746508451" expanded="true" signature="139:679" ph="{...}" />
-            <marker date="1582746508451" expanded="true" signature="193:677" ph="{...}" />
-            <marker date="1582746508451" expanded="true" signature="347:671" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

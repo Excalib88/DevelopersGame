@@ -1,13 +1,12 @@
 using System;
-using DevelopersGame.Web.Services;
+using DevelopersGame.Domain.Abstractions;
+using DevelopersGame.Domain.Services;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json.Serialization;
-using Telegram.Bot;
 
 namespace DevelopersGame.Web
 {

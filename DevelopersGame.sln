@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopersGame.Web", "src\DevelopersGame.Web\DevelopersGame.Web.csproj", "{57A58C5C-3943-44F4-9283-D7A159D05AB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevelopersGame.Domain", "src\DevelopersGame.Domain\DevelopersGame.Domain.csproj", "{D1749FE7-BC68-462C-B9F6-948C4A0254AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{57A58C5C-3943-44F4-9283-D7A159D05AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A58C5C-3943-44F4-9283-D7A159D05AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A58C5C-3943-44F4-9283-D7A159D05AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1749FE7-BC68-462C-B9F6-948C4A0254AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1749FE7-BC68-462C-B9F6-948C4A0254AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1749FE7-BC68-462C-B9F6-948C4A0254AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1749FE7-BC68-462C-B9F6-948C4A0254AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

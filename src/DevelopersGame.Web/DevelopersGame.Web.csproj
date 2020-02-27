@@ -10,4 +10,8 @@
       <PackageReference Include="Telegram.Bot" Version="15.4.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DevelopersGame.Domain\DevelopersGame.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

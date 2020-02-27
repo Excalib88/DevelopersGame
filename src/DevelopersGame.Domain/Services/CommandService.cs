@@ -1,7 +1,8 @@
 using System.Collections.Generic;
-using DevelopersGame.Web.Commands;
+using DevelopersGame.Domain.Abstractions;
+using DevelopersGame.Domain.Commands;
 
-namespace DevelopersGame.Web.Services
+namespace DevelopersGame.Domain.Services
 {
     public class CommandService: ICommandService
     {

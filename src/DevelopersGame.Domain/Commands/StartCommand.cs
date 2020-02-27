@@ -1,10 +1,11 @@
 using System.Threading.Tasks;
+using DevelopersGame.Domain.Abstractions;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 
-namespace DevelopersGame.Web.Commands
+namespace DevelopersGame.Domain.Commands
 {
     public class StartCommand : TelegramCommand
     {
