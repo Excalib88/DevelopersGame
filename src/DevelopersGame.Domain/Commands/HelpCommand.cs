@@ -35,7 +35,7 @@ namespace DevelopersGame.Domain.Commands
                     }
                 }
             };
-            await client.SendTextMessageAsync(chatId, "Помощь",
+            await client.SendTextMessageAsync(chatId, "\U0001F4D6 Помощь",
                 parseMode: ParseMode.Markdown, replyMarkup:keyBoard);
         }
 

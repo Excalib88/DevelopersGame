@@ -24,17 +24,17 @@ namespace DevelopersGame.Web
         
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataContext>(options =>
-            {
-                options
-                    .UseNpgsql(_configuration.GetConnectionString("DefaultConnection"),
-                        assembly =>
-                            assembly.MigrationsAssembly("DevelopersGame.DataAccess.Migrations"));
-            });
+            // services.AddDbContext<DataContext>(options =>
+            // {
+            //     options
+            //         .UseNpgsql(_configuration.GetConnectionString("DefaultConnection"),
+            //             assembly =>
+            //                 assembly.MigrationsAssembly("DevelopersGame.DataAccess.Migrations"));
+            // });
             
             services
                 .AddScoped<ICommandService, CommandService>()
-                .AddScoped<IDbRepository, DbRepository>()
+                //.AddScoped<IDbRepository, DbRepository>()
                 .AddTelegramBotClient(_configuration)
                 .AddControllers()
                 .AddNewtonsoftJson(options => 
