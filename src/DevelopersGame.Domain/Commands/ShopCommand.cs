@@ -35,13 +35,16 @@ namespace DevelopersGame.Domain.Commands
                     }
                 }
             };
-            await client.SendTextMessageAsync(chatId, "Магазин",
+            await client.SendTextMessageAsync(chatId, "\U0001F45C Магазин",
                 parseMode: ParseMode.Html, replyMarkup:keyBoard);
         }
 
         public override bool Contains(Message message)
         {
-            throw new System.NotImplementedException();
+            if (message.Type != MessageType.Text)
+                return false;
+
+            return message.Text.Contains(Name);
         }
     }
 }

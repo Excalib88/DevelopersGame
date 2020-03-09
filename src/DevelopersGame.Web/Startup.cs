@@ -24,13 +24,13 @@ namespace DevelopersGame.Web
         
         public void ConfigureServices(IServiceCollection services)
         {
-            // services.AddDbContext<DataContext>(options =>
-            // {
-            //     options
-            //         .UseNpgsql(_configuration.GetConnectionString("DefaultConnection"),
-            //             assembly =>
-            //                 assembly.MigrationsAssembly("DevelopersGame.DataAccess.Migrations"));
-            // });
+             services.AddDbContext<DataContext>(options =>
+             {
+                 options
+                     .UseNpgsql(_configuration.GetConnectionString("DefaultConnection"),
+                         assembly =>
+                             assembly.MigrationsAssembly("DevelopersGame.DataAccess.Migrations"));
+             });
             
             services
                 .AddScoped<ICommandService, CommandService>()
@@ -48,8 +48,6 @@ namespace DevelopersGame.Web
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServiceProvider serviceProvider)
         {
             app.UseDeveloperExceptionPage();
-
-            app.UseHttpsRedirection();
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

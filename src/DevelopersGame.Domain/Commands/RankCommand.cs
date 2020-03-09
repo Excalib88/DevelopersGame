@@ -35,7 +35,7 @@ namespace DevelopersGame.Domain.Commands
                     }
                 }
             };
-            await client.SendTextMessageAsync(chatId, "Ранк",
+            await client.SendTextMessageAsync(chatId, "\U0001F451 Ранк",
                 parseMode: ParseMode.Html, replyMarkup:keyBoard);
         }
 
@@ -44,6 +44,7 @@ namespace DevelopersGame.Domain.Commands
             if (message.Type != MessageType.Text)
                 return false;
 
-            return message.Text.Contains(Name);        }
+            return message.Text.Contains(Name);        
+        }
     }
 }

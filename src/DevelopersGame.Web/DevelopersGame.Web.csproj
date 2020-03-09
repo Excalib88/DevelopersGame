@@ -6,6 +6,7 @@
 
     <ItemGroup>
       <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.1" />
+      <PackageReference Include="HttpToSocks5Proxy" Version="1.4.0" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.2" />
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.2" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.2" />

@@ -6,10 +6,10 @@ namespace DevelopersGame.Domain.Abstractions
 {
     public abstract class TelegramCommand
     {
-    public abstract string Name { get; }
+        public abstract string Name { get; }
 
-    public abstract Task Execute(Message message, ITelegramBotClient client);
+        public abstract Task Execute(Message message, ITelegramBotClient client);
 
-    public abstract bool Contains(Message message);
+        public abstract bool Contains(Message message);
     }
 }

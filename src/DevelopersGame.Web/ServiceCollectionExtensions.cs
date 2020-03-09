@@ -10,11 +10,11 @@ namespace DevelopersGame.Web
             IConfiguration configuration)
         {
             var client = new TelegramBotClient(configuration["Token"]);
-            var webHook = $"{configuration["Url"]}api/message/update";
+            var webHook = $"{configuration["Url"]}/api/message/update";
             client.SetWebhookAsync(webHook).Wait();
             
             return serviceCollection
-                .AddSingleton<ITelegramBotClient>(client);
+                .AddTransient<ITelegramBotClient>(x=> client);
         }
     }
 }

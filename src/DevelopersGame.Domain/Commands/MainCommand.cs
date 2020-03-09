@@ -35,7 +35,7 @@ namespace DevelopersGame.Domain.Commands
                     }
                 }
             };
-            await client.SendTextMessageAsync(chatId, "Главная страница!",
+            await client.SendTextMessageAsync(chatId, "\U0001F3E0 Главная страница!",
                 parseMode: ParseMode.Html, replyMarkup:keyBoard);
         }
 
